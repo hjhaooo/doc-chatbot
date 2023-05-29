@@ -261,6 +261,11 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fetch-event-source/-/fetch-event-source-2.0.1.tgz#9ceecc94b49fbaa15666e38ae8587f64acce007d"
   integrity sha512-W6CLUJ2eBMw3Rec70qrsEW0jOm/3twwJv21mrmj2yORiaVmVYGS4sSS5yUwvQc1ZlDLYGPnClVWmUUMagKNsfA==
 
+"@next-auth/mongodb-adapter@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@next-auth/mongodb-adapter/-/mongodb-adapter-1.1.3.tgz#531b75f828338ebd73d8539685641a17804d1d77"
+  integrity sha512-nH/may8hntYBlcuxepSsR2b95w6SRnP+c/FFt3KKjdTScNjhrN0zZdlT90nisjG/3gK+MvzMbz/F4Rwpgr9RMA==
+
 "@next/env@13.2.3":
   version "13.2.3"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-13.2.3.tgz#77ca49edb3c1d7c5263bb8f2ebe686080e98279e"
@@ -949,6 +954,11 @@ bson@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/bson/-/bson-5.2.0.tgz#c81d35dd30e2798203e5422a639780ea98dd25ba"
   integrity sha512-HevkSpDbpUfsrHWmWiAsNavANKYIErV2ePXllp1bwq5CDreAaFVj6RVlZpJnxK4WWDCJ/5jMUpaY6G526q3Hjg==
+
+bson@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-5.3.0.tgz#37b006df4cd91ed125cb686467c1dd6d4606b514"
+  integrity sha512-ukmCZMneMlaC5ebPHXIkP8YJzNl5DC41N5MAIvKDqLggdao342t4McltoJBQfQya/nHBWAcSsYRqlXPoQkTJag==
 
 buffer-from@^1.0.0:
   version "1.1.2"
@@ -2930,6 +2940,17 @@ mongodb@*, mongodb@5.3.0:
   optionalDependencies:
     saslprep "^1.0.3"
 
+mongodb@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-5.5.0.tgz#5d213ef68f6b48610909d98d537059f2d7f374a1"
+  integrity sha512-XgrkUgAAdfnZKQfk5AsYL8j7O99WHd4YXPxYxnh8dZxD+ekYWFRA3JktUsBnfg+455Smf75/+asoU/YLwNGoQQ==
+  dependencies:
+    bson "^5.3.0"
+    mongodb-connection-string-url "^2.6.0"
+    socks "^2.7.1"
+  optionalDependencies:
+    saslprep "^1.0.3"
+
 mongoose@*, mongoose@^7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-7.1.0.tgz#ad7f23184a0c19eb8efbbad4f1ff2113ede1515d"
@@ -3054,6 +3075,11 @@ node-releases@^2.0.8:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.10.tgz#c311ebae3b6a148c89b1813fd7c4d3c024ef537f"
   integrity sha512-5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==
+
+nodemailer@^6.9.3:
+  version "6.9.3"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.3.tgz#e4425b85f05d83c43c5cd81bf84ab968f8ef5cbe"
+  integrity sha512-fy9v3NgTzBngrMFkDsKEj0r02U7jm6XfC3b52eoNV+GCrGj+s8pt5OqhiJdWKuw51zCTdiNR/IUD1z33LIIGpg==
 
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
